@@ -1,0 +1,69 @@
+# Data (too large for Git)
+data/
+data_simple/
+data_real/
+*.zip
+
+# Model files (trained models are too large)
+models/*.pth
+models/*.pt
+models/*.json
+!models/.gitkeep
+
+# Training outputs
+training_history.png
+confusion_matrix.png
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+.claude/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Gradio
+flagged/
+
+# GitHub upload instructions (not needed in repo)
+GITHUB_UPLOAD.md
+nul
