@@ -21,7 +21,7 @@ Bu proje, derin ogrenme kullanarak meyve gorsellerini siniflandiran bir yapay ze
 
 1. **Depoyu klonlayin:**
 ```bash
-git clone https://github.com/kullanici/fruit-classifier.git
+git clone https://github.com/EOztas/fruit-classifier-ai.git
 cd fruit-classifier
 ```
 
